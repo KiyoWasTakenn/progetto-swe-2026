@@ -7,6 +7,7 @@
 # Package Files #
 *.jar
 *.war
+*.nar
 *.ear
 
 # Maven build output directory
@@ -29,6 +30,9 @@ target/
 /nbdist/
 .nb-gradle/
 
+# JavaFX specific temp files (if any)
+.jfx-cache/
+
 # Build related
 pom.xml.tag
 pom.xml.releaseBackup
@@ -41,10 +45,6 @@ buildNumber.properties
 # VM crash logs
 hs_err_pid*
 replay_pid*
-
-# Configuration files that may contain sensitive info (add if needed)
-# application-*.properties
-# application-*.yml
 
 # OS generated files
 .DS_Store
